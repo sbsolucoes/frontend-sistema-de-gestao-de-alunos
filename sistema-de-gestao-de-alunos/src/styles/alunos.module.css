@@ -1,0 +1,109 @@
+
+.conteudo__principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10rem;
+    padding: 3rem;
+}
+
+.conteudo__principal__alunos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50rem;
+    height: 45rem;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.conteudo__principal__alunos__subtitulo {
+    align-items: center;
+    font-size: 24px;
+}
+
+.conteudo__principal__alunos__navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    flex-direction: row;
+    gap: 3rem;
+    border-bottom: 1px solid #000;
+}
+
+.conteudo__principal__alunos__navegacao__entrada {
+    display: flex;
+    border: 1px solid #000;
+    width: 27rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.conteudo__principal__alunos__navegacao__filtro {
+    display: flex;
+    width: 12rem;
+    height: 2rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.conteudo__principal__alunos__navegacao__imagem {
+    display: flex;
+    width: 35%;
+}
+
+.conteudo__principal__alunos__resultado {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.conteudo__principal__alunos__resultado__aluno {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color:#efefef;
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.conteudo__principal__alunos__resultado__aluno:hover {
+  background-color:#bababa;
+}
+
+/* Estilo básico para o texto de carregamento */
+.loadingText {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilo para os três pontos com animação */
+  .dots::after {
+    content: '...'; /* Os três pontos */
+    animation: dots 1.5s steps(4, end) infinite; /* Animação infinita */
+  }
+  
+  /* Animação para mover os pontos */
+  @keyframes dots {
+    0%, 20% {
+      content: '';
+    }
+    40% {
+      content: '.';
+    }
+    60% {
+      content: '..';
+    }
+    80%, 100% {
+      content: '...';
+    }
+  }

@@ -1,0 +1,35 @@
+{
+  "name": "sistema-de-gestao-de-alunos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@eslint/config-array": "^0.18.0",
+    "@heroicons/react": "^2.1.5",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.11",
+    "cookies-next": "^4.3.0",
+    "glob": "^11.0.0",
+    "lru-cache": "^11.0.1",
+    "next": "^14.2.12",
+    "next-auth": "^4.24.8",
+    "nookies": "^2.5.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
+    "react-icons": "^5.3.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.9",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.12"
+  }
+}
